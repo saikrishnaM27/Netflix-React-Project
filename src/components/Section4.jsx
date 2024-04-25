@@ -3,7 +3,7 @@ const Section4 = () => {
         <>
             <div className="sectionContent d-flex justify-content-center align-items-center">
                 <div className="video">
-                    <img src="public/assets/children.png" />
+                    <img src="/assets/children.png" />
                     <video src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-tv-in-0819.m4v" autoPlay muted loop></video>
                 </div>
                 <div>
