@@ -9,7 +9,7 @@ const Footer = () => {
                     <div className="col">
                         <ul>
                             <li><a href="https://help.netflix.com/support/412">Faq</a></li>
-                            <li><a href="http://ir.netflix.com/">Investor Relations</a></li>
+                            <li><a href="https://ir.netflix.com/">Investor Relations</a></li>
                             <li><a href="https://help.netflix.com/legal/privacy">Privacy</a></li>
                             <li><a href="https://fast.com/">Speed Test</a></li>
                         </ul>
