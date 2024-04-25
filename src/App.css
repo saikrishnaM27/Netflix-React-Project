@@ -123,6 +123,10 @@ footer ul {
         width: 100% !important;
     }
 
+    .faq {
+        width: 90% !important;
+    }
+
     footer .chooseLang {
         width: 30vw !important;
     }

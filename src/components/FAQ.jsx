@@ -3,7 +3,7 @@ import SignUp from "./SignUp"
 const FAQ = () => {
     return (
         <>
-            <div className="w-75 m-auto mt-5">
+            <div className="faq w-75 m-auto mt-5">
                 <h2 className="my-3 fs-1 fw-bold text-center">Frequently Asked Questions</h2>
                 <div className="accordion accordion-flush" id="accordionFlushExample" data-bs-theme="dark">
                     <div className="accordion-item">
