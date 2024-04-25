@@ -1,0 +1,129 @@
+body {
+    background-color: black;
+}
+
+.BGImage {
+    background-image: url('../public/assets/netflix-bg-img.jpg');
+    object-fit: contain;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.BGHeight {
+    height: 699px;
+    width: 100%;
+}
+
+.BGCover {
+    position: relative;
+    background-color: black;
+    opacity: 0.7;
+}
+
+.BGCoverContent {
+    position: absolute;
+    top: 0;
+}
+
+.main-headline {
+    height: 600px;
+}
+
+.getStartedForm form input::placeholder {
+    color: white;
+}
+
+/* Seperation line */
+.seperationLine {
+    height: 9px;
+    background-color: grey;
+    opacity: 0.7;
+}
+
+/* sections */
+.sections {
+    overflow: hidden;
+}
+
+.sections .video {
+    position: relative;
+}
+
+.sections img {
+    width: 100%;
+    position: relative;
+    z-index: 10;
+}
+
+.sections video {
+    width: 73%;
+    position: absolute;
+    left: 13.1%;
+    bottom: 24.5%;
+}
+
+.sectionContent {
+    padding: 10vh 0;
+    width: 80%;
+    margin: auto;
+}
+
+/* Accordion */
+/* .accordion .accordion-header button {
+    color: white;
+    background-color: #2d2d2d;
+    font-size: x-large;
+}
+
+.accordion .accordion-body {
+    color: white;
+    background-color: #2d2d2d;
+    font-size: x-large;
+}
+
+.accordion-item {
+    margin-bottom: 6px;
+} */
+
+/* footer */
+footer a {
+    color: #6c757d;
+}
+
+footer ul li a {
+    text-decoration: none;
+}
+
+footer ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+/* Responsive */
+@media screen and (max-width:960px) {
+    .TopBar div {
+        width: auto !important;
+    }
+
+    .getStartedForm {
+        width: 100% !important;
+        margin: 0 !important;
+
+    }
+
+    .headline {
+        width: 90% !important;
+    }
+
+    .sections .sectionContent {
+        flex-direction: column !important;
+    }
+
+    .sectionContent img {
+        width: 100% !important;
+    }
+
+    footer .chooseLang {
+        width: 30vw !important;
+    }
+}
