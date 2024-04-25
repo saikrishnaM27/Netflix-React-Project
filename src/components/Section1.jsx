@@ -7,7 +7,7 @@ const Section1 = () => {
                     <p className="fs-4 text-break">Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray players and more.</p>
                 </div>
                 <div className="video">
-                    <img src="/assets/tv.png" />
+                    <img src="public/assets/tv.png" />
                     <video src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-tv-in-0819.m4v" autoPlay muted loop></video>
                 </div>
             </div>
